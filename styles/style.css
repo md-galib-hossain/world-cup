@@ -46,14 +46,21 @@ header {
   bottom: 0;
 }
 .live-btn {
-  background-color: #dd0000;
+  border: 1px solid white;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
+  transition: 0.2s;
 }
 .live-btn i {
   margin-left: 10px;
+}
+.live-btn:hover {
+  background-color: #01ff87;
+  border: none;
+  box-shadow: 0 0 10px #01ff87, 0 0 40px #01ff87, 0 0 80px #01ff87;
+  transition-delay: 0.1s;
 }
 /*---------- Top Banner Ended ----------*/
 /*---------- Main Section Started ----------*/
@@ -83,6 +90,11 @@ nav a {
   margin-bottom: 15px;
   text-align: center;
 }
+nav a:hover {
+  background-color: #01ff87;
+  color: white;
+}
+
 .bottom {
   margin-bottom: 0;
 }
@@ -138,7 +150,7 @@ article {
 .super-btn a {
   color: white;
   padding: 10px 20px;
-  background-color: #dd0000;
+  background-color: #01ff87;
   text-decoration: none;
   border-radius: 5px;
 }
