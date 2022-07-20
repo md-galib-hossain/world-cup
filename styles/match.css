@@ -1,0 +1,24 @@
+/* Matches article start */
+.vs {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  column-gap: 8px;
+  justify-content: center;
+}
+.vs img {
+  width: 50%;
+}
+.cards h3 {
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.cards p {
+  display: block;
+  text-align: center;
+  margin-top: 3px;
+}
+/* Matches article End */
