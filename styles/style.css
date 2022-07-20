@@ -38,6 +38,12 @@ header {
 }
 .header-img {
   width: 60%;
+  position: relative;
+}
+.header-img img {
+  width: 75%;
+  position: absolute;
+  bottom: 0;
 }
 .live-btn {
   background-color: #dd0000;
@@ -123,6 +129,20 @@ article {
 }
 /* article ended */
 /*---------- Main Section Ended ----------*/
+/* Super button start */
+.super-btn {
+  margin: 30px auto;
+  text-align: center;
+  display: none;
+}
+.super-btn a {
+  color: white;
+  padding: 10px 20px;
+  background-color: #dd0000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+/* Super button end */
 /* Footer start */
 footer {
   background-color: #161616;
@@ -178,6 +198,23 @@ i {
   .main {
     flex-direction: column;
   }
+  header {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+  }
+  .header-text {
+    width: 40%;
+  }
+  .header-img {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .header-img img {
+    width: 100%;
+    margin-left: 0px;
+  }
 
   nav {
     width: 100%;
@@ -202,6 +239,9 @@ i {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  .super-btn {
+    display: block;
+  }
   .footer-box hr {
     border: 0.01px solid #e8e8e8;
   }
@@ -223,18 +263,27 @@ i {
     align-items: center;
   }
   header {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
   }
   .header-text {
     text-align: center;
-    width: 90%;
+    width: 80%;
+    height: 50%;
   }
   .header-img {
-    width: 85%;
+    margin-top: 300px;
+    width: 100%;
+
+    position: relative;
+  }
+  .header-img img {
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
   }
 
   .main {
@@ -243,19 +292,22 @@ i {
   }
 
   nav {
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-direction: column;
 
     /* height: 70px; */
     /* padding: 0px; */
     /* background-color: white; */
-    background-color: rgb(179, 40, 40);
+    background-color: white;
+    margin-bottom: 20px;
   }
 
   nav a {
-    border: 1px solid #030303;
+    border: 1px solid #e8e8e8;
     padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
   }
   .main-section {
     margin-top: 30px;
