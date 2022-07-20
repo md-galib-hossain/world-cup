@@ -112,9 +112,8 @@ article {
   padding: 4px 10px;
   border-radius: 5px;
 }
-.cards p {
-  font-size: 14px;
-  display: inline;
+.review {
+  display: flex;
 }
 .cards p span {
   margin-left: 10px;
@@ -196,4 +195,4 @@ footer {
   article {
     width: 100%;
   }
-} */
+}
