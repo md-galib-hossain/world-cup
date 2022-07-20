@@ -198,4 +198,11 @@ i {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  .footer-box hr {
+    border: 0.01px solid #e8e8e8;
+  }
+  .footer-info {
+    flex-wrap: wrap;
+    row-gap: 15px;
+  }
 }
